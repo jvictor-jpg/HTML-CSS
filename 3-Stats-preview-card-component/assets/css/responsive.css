@@ -1,0 +1,76 @@
+/* TABLET */
+
+@media (max-width: 1024px) {
+  .card--wrapper {
+    flex-direction: column;
+  }
+
+  .img--mobile {
+    display: flex;
+    background: url("../images/image-header-mobile.jpg") no-repeat;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+  }
+
+  .overlay {
+    background: rgba(66, 17, 100, 0.7);
+    border-radius: 10px 10px 0 0;
+    height: 40vh;
+    width: 100%;
+  }
+
+  .card--text {
+    text-align: center;
+  }
+
+  .img--desktop {
+    display: none;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 650px) {
+
+  .container{
+    width: 100%;
+  }
+
+  .card--wrapper{
+    margin: 1.75rem;
+  }
+
+  .img--mobile {
+    height: 25vh;
+  }
+
+  .overlay {
+    height: 25vh;
+  }
+
+  .card--text > h1 {
+    font-size: 1.5rem;
+  }
+
+  .card--text > p {
+    font-size: 1rem;
+  }
+
+  .card--text > ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .stats--numbers{
+    font-size: 1.2rem;
+    order: 1;
+  }
+
+  .stats--text{
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+}
