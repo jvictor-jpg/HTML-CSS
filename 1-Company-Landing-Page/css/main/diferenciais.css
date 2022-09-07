@@ -21,15 +21,15 @@
 }
 
 .diferenciais_item--tempo{
-    background-image: url(../img/icone-relogio.png);
+    background-image: url(../../img/icone-relogio.png);
 }
 
 .diferenciais_item--foco{
-    background-image: url(../img/icone-dinheiro.png);
+    background-image: url(../../img/icone-dinheiro.png);
 }
 
 .diferenciais_item--especialistas{
-    background-image: url(../img/icone-quimica.png);
+    background-image: url(../../img/icone-quimica.png);
 }
 
 .item_titulo {
