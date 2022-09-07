@@ -1,0 +1,50 @@
+@media (max-width: 950px){
+    .container{
+        width: 90%;
+        /* justify-content: center; */
+    }
+
+    .card--container{
+        width: 100%;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .img--desktop{
+        display: none;
+    }
+
+    .img--mobile{
+        display: flex;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .card--text > *{
+        margin-top: 30px;
+    }
+
+    .card--text>h1{
+        font-size: 2.5rem;
+    }
+
+    .price--now{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 450px){
+    .card--text>h1{
+        font-size: 2rem;
+    }
+
+    .card--text>p{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+    .price--now{
+        font-size: 2rem;
+    }
+}
