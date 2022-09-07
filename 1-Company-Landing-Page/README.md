@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="img/screenshot.png" width="400"/>
+  <p><a href="https://html-css-iota.vercel.app/">CLICK HERE FOR FULL PAGE<a></p>
+</div>
+    
 # English :canada:
 Landing page for a fictional app development company.<br>
 Although this project's content is written in Brazilian Portuguese, the design and sections can be easily understood.
