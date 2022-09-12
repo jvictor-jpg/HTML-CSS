@@ -1,6 +1,5 @@
 <div align="center">
   <img src="assets/images/screenshot-stats-preview-card-component.png" width="600"/>
-  <p><a href="https://stats-preview-card-component-dusky.vercel.app/">CLICK HERE FOR FULL PAGE<a></p>
 </div>
     
 # English :canada:
